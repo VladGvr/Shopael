@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-ă-el!</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- OwlCarousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+        <header id="header">
+            <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+                <p class="font-nunito font-size-12 text-white-50 m-0">,</p>
+                <div class="font-nunito font-size-14">
+                    <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+                    <a href="#" class="px-3 border-right text-dark">Whishlist (0)</a>
+                </div>
+            </div>
+
+            <!-- Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark color-purp-bg">
+                <a class="navbar-brand" href="#">Shop-ă-el!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-auto font-playfair">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Categorii <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Produse <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ofertele momentului</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Noutăți </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Newsletter</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Help <i class="fas fa-headphones"></i></a>
+                      </li>
+                  </ul>
+                  <form action="#" class="font-size-14 font-playfair">
+                      <a href="#" class="py-2 rounded-pill color-green-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                      </a>
+                  </form>
+                </div>
+              </nav>
+               <!-- Navigation Bar -->
+
+        </header>
+    <!-- Header -->
+
+    <!-- start #main-site -->
+        <main id="main-site">
+
+          <!-- Carousel -->
+            <section id="banner">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img src="../media/Banner1.png" alt="Banner1">
+                  </div>
+                  <div class="item">
+                    <img src="../media/Banner2.jpg" alt="Banner2">
+                  </div>
+                  <div class="item">
+                    <img src="../media/Banner3.png" alt="Banner3">
+                  </div>
+                  <div class="item">
+                    <img src="../media/Banner4.png" alt="Banner4">
+                  </div>
+                  
+              </div>
+            </section>
+          <!-- Carousel -->
+
+          <!-- Cele Mai Vândute -->
+          <section id="cmvandute">
+            <div class="container py-5">
+              <h4 class="font-serif font-size-20">Cele mai vândute</h4>
+              <hr>
+              <!-- cmv carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2">
+                    <div class="product font-nunito">
+                      <a href="#"><img src="../media/products/1.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Telefon mobil Apple iPhone 13 Pro Max 512GB</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>5799 RON</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-nunito">
+                      <a href="#"><img src="../media/products/2.png" alt="product2" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Încărcător Apple, USB Type-C, 20W</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>110 RON</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-nunito">
+                      <a href="#"><img src="../media/products/3.png" alt="product3" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Geantă de voiaj, piele ecologică, Crossbody</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>79 RON</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-nunito">
+                      <a href="#"><img src="../media/products/4.png" alt="product4" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>James Clear - ”Atomic Habits” ediție tradusă</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>45 RON</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-nunito">
+                      <a href="#"><img src="../media/products/5.png" alt="product5" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Invictus by Paco Rabanne, apa de parfum, 100ml</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>299 RON </span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-nunito">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../media/products/6.PNG" class="img-fluid" alt="product6"></a>
+                        <div class="text-center">
+                          <h6>Set măști de protecție FFP2, multistrat, diverse culori</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>30 RON </span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-nunito">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../media/products/7.PNG" class="img-fluid" alt="product 7"></a>
+                        <div class="text-center">
+                          <h6>Fossil - Ceas damă, zale din oțel inoxidabil </h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>350 RON </span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- cmv carousel -->
+            </div>
+          </section>
+        <!-- Cele Mai Vândute -->
+
+        <!-- Oferte -->
+          <section id="oferte">
+            <div class="container">
+              <h4 class="font-serif font-size-20">Oferte</h4>
+              <div id="filters" class="button-group text-right font-playfair font-size-14">
+                <button class="btn is-checked" data-filter="*">Toate</button>
+                <button class="btn" data-filter=".Electronice">Electronice & Electrocasnice</button>
+                <button class="btn" data-filter=".Accesorii">Haine & Accesorii</button>
+                <button class="btn" data-filter=".Îngrijire">Cosmetică & Îngrijire</button>
+                <button class="btn" data-filter=".Cărți">Cărți & Birotică</button>
+              </div>
+
+              <div class="grid">
+                <div class="grid-item Electronice border">
+                 <div class="item py-2" style="width: 200px;">
+                  <div class="product font-nunito">
+                    <a href="#"><img src="../media/products/11.PNG" alt="product11" class="img-fluid"></a>
+                    <div class="text-center">
+                      <h6>Căști wireless audio, Bluetooth 5.0</h6>
+                      <div class="rating text-warning font-size-12">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                      </div>
+                      <div class="price text-primary py-2">
+                        <p class="text-secondary"><del>110 RON</del></p>
+                        <span>89 RON</span>
+                      </div>
+                      <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="grid-item Electronice border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-nunito">
+                     <a href="#"><img src="../media/products/12.PNG" alt="product12" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Espressor cu capsule Nescafe Dolce Gusto Mini</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price text-primary py-2">
+                        <p class="text-secondary"><del>399 RON</del></p>
+                         <span>359 RON</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Accesorii border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-nunito">
+                     <a href="#"><img src="../media/products/13.PNG" alt="product13" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>New Era - Sapca Chicago Bulls</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                       </div>
+                       <div class="price text-primary py-2">
+                        <p class="text-secondary"><del>130 RON</del></p>
+                         <span>99 RON</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Îngrijire border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-nunito">
+                     <a href="#"><img src="../media/products/8.PNG" alt="product8" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Innovation - cremă de zi antirid, acid hialuronic</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                       </div>
+                       <div class="price text-primary py-2">
+                        <p class="text-secondary"><del>100 RON</del></p>
+                         <span>90 RON</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Îngrijire border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-nunito">
+                     <a href="#"><img src="../media/products/10.PNG" alt="product10" class="img-fluid"></a>
+                     <div class="text-center">
+                       <h6>Set 100 mănuși medicinale, nitril, negre</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price text-primary py-2">
+                        <p class="text-secondary"><del>89 RON</del></p>
+                         <span>59 RON</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item  Cărți border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-nunito">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../media/products/9.PNG" class="img-fluid" alt="product9"></a>
+                        <div class="text-center">
+                          <h6>Flipchart magnetic cu rotile și accesorii, 70x100cm</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price text-primary py-2">
+                            <p class="text-secondary"><del>330 RON</del></p>
+                            <span>290 RON</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Cărți border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-nunito">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../media/products/14.PNG" class="img-fluid" alt="product14"></a>
+                        <div class="text-center">
+                          <h6>Parker - set aniversar stilou și toc</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price text-primary py-2">
+                            <p class="text-secondary"><del>219 RON</del></p>
+                            <span>189 RON</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Cărți border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-nunito">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../media/products/15.PNG" class="img-fluid" alt="product15"></a>
+                        <div class="text-center">
+                          <h6>Sun Tzu - ”Arta războiului”, bestseller internațional</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                          <div class="price text-primary py-2">
+                            <p class="text-secondary"><del>35 RON</del></p>
+                            <span>18 RON</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </section>
+        <!-- Oferte -->
+
+        <!-- Bannere  -->
+          <section id="Bannere">
+            <div class="container py-5 bg-light text-center">
+              <img src="../media/Ban10.PNG" alt="banner1" class="img-fluid">
+              <img src="../media/Ban11.PNG" alt="banner2" class="img-fluid">
+            </div>
+          </section>
+        <!-- !Bannere  -->
+
+          <!-- Noutăți -->
+          <section id="noutăți">
+            <div class="container">
+              <h4 class="font-serif font-size-20">Noutăți</h4>
+              <hr>
+
+                    <!-- owl carousel -->
+                    <div class="owl-carousel owl-theme">
+                      <div class="item py-5 bg-light">
+                        <div class="product font-nunito">
+                          <a href="#"><img src="../media/products/16.PNG" alt="product16" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Cameră foto Canon 400D, DC III, 18-55mm</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>2100 RON</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-5 bg-light">
+                        <div class="product font-nunito">
+                          <a href="#"><img src="../media/products/17.PNG" alt="product17" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Adidas x Real Madrid hanorac bărbați</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>299 RON</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-5 bg-light">
+                        <div class="product font-nunito">
+                          <a href="#"><img src="../media/products/18.PNG" alt="product18" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Kirkland Minoxidil tratament împotriva căderii părului</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>135 RON</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-5 bg-light">
+                        <div class="product font-nunito">
+                          <a href="#"><img src="../media/products/19.PNG" alt="product19" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Canon calculator de buzunar 14 digit</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>49 RON</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Adaugă în coș</button>
+                          </div>
+                        </div>
+                      </div>
+                     
+                    </div>
+                  <!-- !owl carousel -->
+
+            </div>
+          </section>
+          <!-- !New Phones -->
+
+       
+        </main>
+    <!-- !start #main-site -->
+
+    <!-- start #footer -->
+        <footer id="footer" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-nunito font-size-20">Shop-ă-el!</h4>
+                <p class="font-size-14 font-nunito text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum arcu mi. Suspendisse volutpat sit amet nisi eu volutpat. In vitae iaculis urna, in efficitur purus. Vivamus quis enim eros.</p>
+              </div>
+              <div class="col-lg-4 col-12">
+                <h4 class="font-nunito font-size-20">Abonează-te la Newsletter</h4>
+                <h4 class="font-nunito font-size-12">Lasă-ne numărul tău de telefon și îți vom trimite cele mai noi oferte prin SMS!</h4>
+                <form class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder= " Phone *">
+                  </div>
+                  <div class="col">
+                    <button type="submit" class="btn btn-primary mb-2">Trimite SMS</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-nunito font-size-20">Comenzi și livrare</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Contact</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Informații livrare</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Politica de returnare</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Termene și Condiții</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-nunito font-size-20">Client</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Contul meu</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Prelucrarea datelor cu caracter personal</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Politica Cookie</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Vreau să devin vânzător!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">&copy; Copyrights 2022. Desing By <a href="#" class="color-second">Vlad Gavrilă</a></p>
+        </div>
+    <!-- !start #footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  Isotope plugin CDN  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>

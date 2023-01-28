@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display&family=Source+Serif+4&display=swap');
+/*              Sass Template           */
+/*  global classes  */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Font Classes */
+.font-nunito {
+  font-family: "Nunito", cursive;
+}
+
+.font-playfair {
+  font-family: "Playfair", cursive;
+}
+
+.font-serif {
+  font-family: "Serif", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Classes  */
+.color-purp {
+  color: #9304cc;
+}
+
+.color-purp-bg {
+  background:#9304cc;
+}
+
+.color-green {
+  color: #71eca8;
+}
+
+.color-green-bg {
+  background: #71eca8;
+}
+
+.color-pink {
+  color: #ee8b6c; 
+}
+
+.color-pink-bg {
+  background: #ee8b6c; 
+}
+
+.color-black {
+  color: #000000; 
+}
+
+.color-black-bg {
+  background: #000000; 
+}
+
+/*  Cele mai Vandute template   */
+#cmvandute .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#cmvandute .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#cmvandute .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#cmvandute .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#cmvandute .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#cmvandute .owl-carousel .owl-nav button.owl-prev span,
+#cmvandute .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #9304cc;
+  padding: 0 1rem;
+}
+#cmvandute .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#cmvandute .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#cmvandute .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
